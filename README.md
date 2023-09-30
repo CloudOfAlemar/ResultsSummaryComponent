@@ -33,8 +33,8 @@ Above is a screenshot of the completed component.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-results-summary-component-IRlYybK1ms)
-- Live Site URL: [Add live site URL here](https://cloudofalemar.github.io/ResultsSummaryComponent/)
+- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/responsive-results-summary-component-IRlYybK1ms)
+- Live Site URL: [Live Site Link](https://cloudofalemar.github.io/ResultsSummaryComponent/)
 
 ## My process
 
