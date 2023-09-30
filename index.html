@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="./script.js"></script>
+  
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+
+  <main class="component">
+
+    <section class="result-area">
+      <h1 class="result-heading">Your Result</h1>
+
+      <div class="result-score-area">
+        <div class="result-score-wrapper">
+          <span class="result-score-display">76</span> of 
+          <span class="result-total-display">100</span>
+        </div>
+      </div>
+
+      <div class="feedback-area">
+        <h2 class="feedback-heading">Great</h2>
+        <p class="feedback-description">
+          You scored higher than 65% of the people who have taken
+          these tests.
+        </p>
+      </div>
+    </section>
+
+    <section class="summary-area"> 
+      <h3 class="summary-heading">Summary</h3>
+      <ul class="categories-area">
+        <li class="category-area category-area--reaction">
+          <div class="category-title-area">
+            <img src="" alt="" class="category-icon">
+            <h4 class="category-heading category-heading--reaction"></h4>
+          </div>
+          <div class="category-score-area">
+            <span class="category-score-display"></span> / 
+            <span class="category-total-display">100</span>
+          </div>
+        </li>
+        <li class="category-area category-area--memory">
+          <div class="category-title-area">
+            <img src="" alt="" class="category-icon">
+            <h4 class="category-heading category-heading--memory"></h4>
+          </div>
+          <div class="category-score-area">
+            <span class="category-score-display"></span> / 
+            <span class="category-total-display">100</span>
+          </div>
+        </li>
+        <li class="category-area category-area--verbal">
+          <div class="category-title-area">
+            <img src="" alt="" class="category-icon">
+            <h4 class="category-heading category-heading--verbal"></h4>
+          </div>
+          <div class="category-score-area">
+            <span class="category-score-display"></span> / 
+            <span class="category-total-display">100</span>
+          </div>
+        </li>
+        <li class="category-area category-area--visual mb-0">
+          <div class="category-title-area">
+            <img src="" alt="" class="category-icon">
+            <h4 class="category-heading category-heading--visual"></h4>
+          </div>
+          <div class="category-score-area">
+            <span class="category-score-display"></span> / 
+            <span class="category-total-display">100</span>
+          </div>
+        </li>
+      </ul>
+      <button class="summary-button">Continue</button>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Alejandro Martinez</a>.
+  </div>
+</body>
+</html>
